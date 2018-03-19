@@ -14,7 +14,7 @@ class Application {
 
     @GetMapping("/")
     fun home(): String {
-        return "Malo Backend is running"
+        return "Malo Backend is running!"
     }
 
 }
